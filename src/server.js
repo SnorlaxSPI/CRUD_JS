@@ -2,11 +2,10 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 
-
 import routes from './routes/index.js';
 //import { log } from './middlewares/log.js';
 
-import './database/connect.js';
+import './database/connect1.js';
 
 export const app = express();
 

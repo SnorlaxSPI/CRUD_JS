@@ -8,9 +8,9 @@ const clients = [];
 const category = new Category();
 
 export default {
-  post_controller(request,response) {
+  post_controller (request,response) {
     // request.body => quer o corpo da requisição
-    const { name, phone } = request.body;
+    const { name, phone } =  request.body;
   
     Object.assign(category, {
       name,
